@@ -1205,6 +1205,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				VALID_ARCHS = "x64_86 i386";
 			};
 			name = Debug;
@@ -1245,6 +1246,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "atomicobject.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				SWIFT_VERSION = 4.2;
 				VALID_ARCHS = "x64_86 i386";
 			};
 			name = Release;
@@ -1285,6 +1287,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -1320,6 +1323,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "atomicobject.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
